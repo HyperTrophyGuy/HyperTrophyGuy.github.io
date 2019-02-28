@@ -1,0 +1,865 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="Traps_and_Middle_Back_files/filelist.xml">
+<style id="Hypertrophy Programming_31010_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl1531010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6531010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6631010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6731010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6831010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6931010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7031010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7131010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#0563C1;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7231010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl7331010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl7431010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl7531010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:right;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7631010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7731010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:right;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7831010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl7931010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8031010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:top;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8131010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:top;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8231010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:top;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8331010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8431010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8531010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:top;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl8631010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:top;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8731010
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:22.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id="Hypertrophy Programming_31010" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1211 style='border-collapse:
+ collapse;table-layout:fixed;width:909pt'>
+ <col width=64 style='width:48pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:4002;width:86pt'>
+ <col class=xl1531010 width=19 style='mso-width-source:userset;mso-width-alt:
+ 651;width:14pt'>
+ <col width=246 style='mso-width-source:userset;mso-width-alt:8587;width:185pt'>
+ <col width=258 style='mso-width-source:userset;mso-width-alt:9006;width:194pt'>
+ <col width=249 style='mso-width-source:userset;mso-width-alt:8704;width:187pt'>
+ <col width=260 style='mso-width-source:userset;mso-width-alt:9076;width:195pt'>
+ <tr height=38 style='height:28.5pt'>
+  <td colspan=7 height=38 class=xl8731010 width=1211 style='height:28.5pt;
+  width:909pt'>TRAPS &amp; MID BACK</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl6531010 style='height:15.0pt;border-top:none'>&nbsp;</td>
+  <td class=xl6631010 style='border-top:none'>Muscles</td>
+  <td class=xl6631010 style='border-top:none'>&nbsp;</td>
+  <td class=xl6631010 style='border-top:none'>Movement</td>
+  <td class=xl6631010 style='border-top:none'>Target Area</td>
+  <td class=xl6631010 style='border-top:none'>Video</td>
+  <td class=xl6631010 style='border-top:none'>Version</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl1531010 style='height:15.0pt'></td>
+  <td class=xl8331010>&nbsp;</td>
+  <td class=xl6731010></td>
+  <td class=xl6731010></td>
+  <td class=xl6731010></td>
+  <td class=xl6731010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8131010 width=115 style='width:86pt'>Upper Traps</td>
+  <td class=xl8631010 width=19 style='width:14pt'></td>
+  <td class=xl1531010>Barbell Shrugs</td>
+  <td class=xl1531010>Allow Shoulders to Protract on way down</td>
+  <td class=xl7031010><a href="https://youtu.be/jyFMBf-SrHs?t=82">https://youtu.be/jyFMBf-SrHs?t=82</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8031010 width=115 style='width:86pt'>&nbsp;</td>
+  <td class=xl8631010 width=19 style='width:14pt'></td>
+  <td class=xl1531010>Barbell Shrugs</td>
+  <td class=xl1531010>Widen Grip Width</td>
+  <td class=xl7031010><a href="https://youtu.be/hh8EU1iSyYw?t=268">https://youtu.be/hh8EU1iSyYw?t=268</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8031010 width=115 style='width:86pt'>&nbsp;</td>
+  <td class=xl6931010></td>
+  <td class=xl1531010>Barbell Shrugs</td>
+  <td class=xl1531010>Squeeze Shoulder Blades together</td>
+  <td class=xl7031010><a href="https://youtu.be/hh8EU1iSyYw?t=300">https://youtu.be/hh8EU1iSyYw?t=300</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7231010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Dumbell Shrug (Kneeling)</td>
+  <td class=xl1531010>Takes the lower body out of play</td>
+  <td class=xl7031010><a href="https://youtu.be/cYPDveEb1RQ?t=34">https://youtu.be/cYPDveEb1RQ?t=34</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7231010>&nbsp;</td>
+  <td class=xl7531010></td>
+  <td class=xl1531010>Twisting Trap Shrug</td>
+  <td class=xl1531010>Position perpendicular to the Band</td>
+  <td class=xl7031010><a href="https://youtu.be/cYPDveEb1RQ?t=141">https://youtu.be/cYPDveEb1RQ?t=141</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Low Band Pull</td>
+  <td class=xl1531010>Shrug, Rotate &amp; Pull</td>
+  <td class=xl7031010><a href="https://youtu.be/LHK7H3Y2xIQ?t=57">https://youtu.be/LHK7H3Y2xIQ?t=57</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Another Low Band Pull Version</td>
+  <td class=xl1531010>Pull up and at an angle</td>
+  <td class=xl7031010><a href="https://youtu.be/OXvQe9payHw?t=180">https://youtu.be/OXvQe9payHw?t=180</a></td>
+  <td class=xl8431010>** Band Version **</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Above the Knee Rack Pulls</td>
+  <td class=xl1531010>Try &amp; use Heavy Loads</td>
+  <td class=xl7031010><a href="https://youtu.be/hh8EU1iSyYw?t=124">https://youtu.be/hh8EU1iSyYw?t=124</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7431010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl7031010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8131010 width=115 style='width:86pt'>Middle Traps &amp;</td>
+  <td class=xl1531010></td>
+  <td class=xl7931010>Overhead Plate Trap Raise</td>
+  <td class=xl6831010 width=258 style='width:194pt'>Use Incline Bench as Low
+  Point to --&gt;</td>
+  <td class=xl7131010><a href="https://youtu.be/LHK7H3Y2xIQ?t=131">https://youtu.be/LHK7H3Y2xIQ?t=131</a></td>
+  <td class=xl1531010>Isolate the traps from front Delts</td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8231010 width=115 style='width:86pt'><span
+  style='mso-spacerun:yes'> </span>Lower Traps</td>
+  <td class=xl1531010></td>
+  <td class=xl7931010>Overhead Plate Trap Raise</td>
+  <td class=xl1531010>Thumbs pointing up</td>
+  <td class=xl7031010><a href="https://youtu.be/jyFMBf-SrHs?t=138">https://youtu.be/jyFMBf-SrHs?t=138</a></td>
+  <td class=xl1531010>** Go For HIGH Rep Ranges</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl7931010>Overhead Plate Trap Raise</td>
+  <td class=xl1531010>Squeeze the traps to raise the plate</td>
+  <td class=xl7031010></td>
+  <td class=xl1531010>These muscles are built for endurance **</td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl8631010 width=19 style='width:14pt'></td>
+  <td class=xl1531010>Cable Over Head Trap Raise</td>
+  <td class=xl1531010>Lift straight up overhead</td>
+  <td class=xl7031010><a href="https://youtu.be/cYPDveEb1RQ?t=85">https://youtu.be/cYPDveEb1RQ?t=85</a></td>
+  <td class=xl1531010>Go as high as you possibly can</td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl8631010 width=19 style='width:14pt'></td>
+  <td class=xl1531010>Dumbell Prone Press</td>
+  <td class=xl1531010>Press as high as possible</td>
+  <td class=xl7031010><a href="https://youtu.be/cYPDveEb1RQ?t=265">https://youtu.be/cYPDveEb1RQ?t=265</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl7731010></td>
+  <td class=xl1531010>Reverse Trap Fly w/ Tube/Band</td>
+  <td class=xl1531010></td>
+  <td class=xl7031010><a href="https://youtu.be/cYPDveEb1RQ?t=314">https://youtu.be/cYPDveEb1RQ?t=314</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Prone Reverse Fly w/ External Rotation</td>
+  <td class=xl1531010>Target Mid Traps</td>
+  <td class=xl7031010><a href="https://youtu.be/hh8EU1iSyYw?t=320">https://youtu.be/hh8EU1iSyYw?t=320</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7431010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl7031010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8131010 width=115 style='width:86pt'>Y Exercise for</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Inverted Y Raise</td>
+  <td class=xl1531010>Get arms up &amp; over head</td>
+  <td class=xl7031010><a href="https://youtu.be/OXvQe9payHw?t=218">https://youtu.be/OXvQe9payHw?t=218</a></td>
+  <td class=xl1531010>Keeping Shoulders Blades down &amp; back</td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8231010 width=115 style='width:86pt'>Lower Traps</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Prone Y with Thumbs Pointing UP</td>
+  <td class=xl1531010>Target Lower Traps</td>
+  <td class=xl7031010><a href="https://youtu.be/hh8EU1iSyYw?t=388">https://youtu.be/hh8EU1iSyYw?t=388</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl7631010></td>
+  <td class=xl1531010 colspan=2>Lower Traps stablize down and back &amp; hold
+  Shoulder Blades in place</td>
+  <td class=xl7031010><a href="https://youtu.be/OXvQe9payHw?t=208">https://youtu.be/OXvQe9payHw?t=208</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl6931010>Y Raise</td>
+  <td class=xl1531010>Static Hold at top of movement</td>
+  <td class=xl7031010><a href="https://youtu.be/jv8ylu5CQik?t=134">https://youtu.be/jv8ylu5CQik?t=134</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl6931010>Y Raise without weights</td>
+  <td class=xl1531010>Chest face down on Incline Bench</td>
+  <td class=xl7031010><a href="https://youtu.be/mK2X48vkluM?t=212">https://youtu.be/mK2X48vkluM?t=212</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Superman Angel of Death</td>
+  <td class=xl1531010>Keep chest, thighs &amp; legs off the ground</td>
+  <td class=xl7031010><a href="https://youtu.be/jv8ylu5CQik?t=303">https://youtu.be/jv8ylu5CQik?t=303</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>&quot;Stable&quot; Y Exercise</td>
+  <td class=xl1531010>First Pinch Your Shoulder Blades Together</td>
+  <td class=xl7031010><a href="https://youtu.be/0U4XgPQnLdc?t=143">https://youtu.be/0U4XgPQnLdc?t=143</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7431010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl7831010>Rhomboids</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>** Rhomboid Anatomy Explanation **</td>
+  <td class=xl1531010></td>
+  <td class=xl7031010><a href="https://youtu.be/OXvQe9payHw?t=400">https://youtu.be/OXvQe9payHw?t=400</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8531010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010 colspan=2>All they do is bring Shoulder Blades from
+  around the body back closer to the Spine</td>
+  <td class=xl7031010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=21 style='height:15.5pt'>
+  <td height=21 class=xl1531010 style='height:15.5pt'></td>
+  <td class=xl8531010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>T Raise</td>
+  <td class=xl1531010></td>
+  <td class=xl7031010><a href="https://youtu.be/OXvQe9payHw?t=435">https://youtu.be/OXvQe9payHw?t=435</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7331010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010>Prone Reverse Fly w/ External Rotation</td>
+  <td class=xl1531010>Target Mid Traps &amp; ** Maybe Rhomboids</td>
+  <td class=xl7031010><a href="https://youtu.be/hh8EU1iSyYw?t=320">https://youtu.be/hh8EU1iSyYw?t=320</a></td>
+  <td class=xl1531010></td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl1531010 style='height:14.5pt'></td>
+  <td class=xl7431010>&nbsp;</td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+  <td class=xl1531010></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=115 style='width:86pt'></td>
+  <td width=19 style='width:14pt'></td>
+  <td width=246 style='width:185pt'></td>
+  <td width=258 style='width:194pt'></td>
+  <td width=249 style='width:187pt'></td>
+  <td width=260 style='width:195pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>
